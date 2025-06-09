@@ -21,7 +21,7 @@ app.use(
         return  callback(null, true); // Permitir el origen
       }
 
-      if(!orihin) {
+      if(!origin) {
         return callback(null, true); // Permitir peticiones sin origen (como las de Postman)
       }
 
